@@ -577,6 +577,19 @@ video {
   max-width: 640px;
 }
 
+.max-w-lg {
+  max-width: 32rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-fit {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
 .flex-auto {
   flex: 1 1 auto;
 }
